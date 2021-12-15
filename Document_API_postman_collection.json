@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "75000ad2-aedd-4821-9ae7-9f813633fa6f",
+		"_postman_id": "4b562a9f-d76b-4830-beeb-e3fe9679223f",
 		"name": "Document API Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "Create / Update Whole Customer Document",
+			"name": "Create / Update Customer Document",
 			"request": {
 				"auth": {
 					"type": "apikey",
@@ -27,7 +27,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"id\": \"110\",\n    \"club_id\": 12378,\n    \"club_membership\" : \"125K\",\n    \"club_joined\": \"2016-06-20T18:25:43.511Z\",\n    \"club_expiration\": \"2021-12-21T18:25:43.511Z\",\n    \"contact\" : {\n        \"cell_phone\": \"+1 804-555-5555\",\n        \"work_phone\": \"+1 781-998-5555\",\n        \"emails\" : [\"test+010@somebiz.com\"],\n        \"opt_in\" : true,\n        \"home_address\" : \"110 Main St, Palo Alto, CA 94020\",\n        \"work_address\": \"990 First St, San Mateo, CA 94403\"\n    },\n    \"club_checkins\" : [\n        {\"checkin_date\": \"2021-02-03T18:25:43.511Z\"}\n    ],\n    \"flight_history\": {\n        \"domestic\" : [\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-0000111100016\",\n                \"flight\" : \"ABC0321\",\n                \"bags_checked\" : 2,\n                \"miles_earned\" : 1795,\n                \"flight_date\" : \"2016-04-23T18:25:43.511Z\"\n            },\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-0000111100017\",\n                \"flight\" : \"ABC0334\",\n                \"bags_checked\" : 0,\n                \"miles_earned\" : 891,\n                \"flight_date\" : \"2017-04-21T18:25:43.511Z\"\n            },\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-0000111100018\",\n                \"flight\" : \"ABC0341\",\n                \"bags_checked\" : 0,\n                \"miles_earned\" : 931,\n                \"flight_date\" : \"2018-06-29T18:25:43.511Z\"\n            },\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-000011110019\",\n                \"flight\" : \"ABC0584\",\n                \"bags_checked\" : 1,\n                \"miles_earned\" : 1626,\n                \"flight_date\" : \"2019-09-03T07:25:43.511Z\"\n            },\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-000011110021\",\n                \"flight\" : \"ABC0991\",\n                \"bags_checked\" : 1,\n                \"miles_earned\" : 1101,\n                \"flight_date\" : \"2021-09-03T07:25:43.511Z\"\n            }\n        ],\n        \"international\" : [\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-000011110020\",\n                \"flight\" : \"ABC9976\",\n                \"bags_checked\" : 2,\n                \"miles_earned\" : 3451,\n                \"flight_date\" : \"2021-02-03T21:00:00.511Z\"\n            }\n        ]\n    }\n}",
+					"raw": "{\n    \"id\": \"10001\",\n    \"club_id\": 12378,\n    \"club_membership\" : \"125K\",\n    \"club_joined\": \"2016-06-20T18:25:43.511Z\",\n    \"club_expiration\": \"2021-12-21T18:25:43.511Z\",\n    \"contact\" : {\n        \"cell_phone\": \"+1 804-555-5555\",\n        \"work_phone\": \"+1 781-998-5555\",\n        \"emails\" : [\"test+010@somebiz.com\"],\n        \"opt_in\" : true,\n        \"home_address\" : \"110 Main St, Palo Alto, CA 94020\",\n        \"work_address\": \"990 First St, San Mateo, CA 94403\"\n    },\n    \"club_checkins\" : [\n        {\"checkin_date\": \"2021-02-03T18:25:43.511Z\"}\n    ],\n    \"flight_history\": {\n        \"domestic\" : [\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-0000111100016\",\n                \"flight\" : \"ABC0321\",\n                \"bags_checked\" : 2,\n                \"miles_earned\" : 1795,\n                \"flight_date\" : \"2016-04-23T18:25:43.511Z\"\n            },\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-0000111100017\",\n                \"flight\" : \"ABC0334\",\n                \"bags_checked\" : 0,\n                \"miles_earned\" : 891,\n                \"flight_date\" : \"2017-04-21T18:25:43.511Z\"\n            },\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-0000111100018\",\n                \"flight\" : \"ABC0341\",\n                \"bags_checked\" : 0,\n                \"miles_earned\" : 931,\n                \"flight_date\" : \"2018-06-29T18:25:43.511Z\"\n            },\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-000011110019\",\n                \"flight\" : \"ABC0584\",\n                \"bags_checked\" : 1,\n                \"miles_earned\" : 1626,\n                \"flight_date\" : \"2019-09-03T07:25:43.511Z\"\n            },\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-000011110021\",\n                \"flight\" : \"ABC0991\",\n                \"bags_checked\" : 1,\n                \"miles_earned\" : 1101,\n                \"flight_date\" : \"2021-09-03T07:25:43.511Z\"\n            }\n        ],\n        \"international\" : [\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-000011110020\",\n                \"flight\" : \"ABC9976\",\n                \"bags_checked\" : 2,\n                \"miles_earned\" : 3451,\n                \"flight_date\" : \"2021-02-03T21:00:00.511Z\"\n            }\n        ]\n    }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -35,12 +35,12 @@
 					}
 				},
 				"url": {
-					"raw": "https://{{db}}-{{region}}.apps.astra.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/110",
+					"raw": "https://{{db}}-{{region}}.apps.astra-test.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/10001",
 					"protocol": "https",
 					"host": [
 						"{{db}}-{{region}}",
 						"apps",
-						"astra",
+						"astra-test",
 						"datastax",
 						"com"
 					],
@@ -52,7 +52,7 @@
 						"{{keyspace}}",
 						"collections",
 						"customers",
-						"110"
+						"10001"
 					]
 				}
 			},
@@ -91,12 +91,12 @@
 					}
 				},
 				"url": {
-					"raw": "https://{{db}}-{{region}}.apps.astra.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/104",
+					"raw": "https://{{db}}-{{region}}.apps.astra-test.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/10005",
 					"protocol": "https",
 					"host": [
 						"{{db}}-{{region}}",
 						"apps",
-						"astra",
+						"astra-test",
 						"datastax",
 						"com"
 					],
@@ -108,14 +108,14 @@
 						"{{keyspace}}",
 						"collections",
 						"customers",
-						"104"
+						"10005"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Get Customer Contact Info",
+			"name": "Search in a Collection",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -147,12 +147,12 @@
 					}
 				},
 				"url": {
-					"raw": "https://{{db}}-{{region}}.apps.astra.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/110/contact",
+					"raw": "https://{{db}}-{{region}}.apps.astra-test.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers?page-size=20",
 					"protocol": "https",
 					"host": [
 						"{{db}}-{{region}}",
 						"apps",
-						"astra",
+						"astra-test",
 						"datastax",
 						"com"
 					],
@@ -163,50 +163,81 @@
 						"namespaces",
 						"{{keyspace}}",
 						"collections",
-						"customers",
-						"110",
-						"contact"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Update Customer Address",
-			"request": {
-				"auth": {
-					"type": "apikey",
-					"apikey": [
+						"customers"
+					],
+					"query": [
 						{
-							"key": "value",
-							"value": "{{token}}",
-							"type": "string"
+							"key": "page-size",
+							"value": "20",
+							"description": "Max Page Size"
 						},
 						{
-							"key": "key",
-							"value": "X-Cassandra-Token",
-							"type": "string"
+							"key": "fields",
+							"value": "[\"contact.email\"]",
+							"description": "Email Address",
+							"disabled": true
+						},
+						{
+							"key": "fields",
+							"value": "[\"contact.address\", \"flight_history.domestic.bags_checked\"]",
+							"description": "Get column from one Sub-Doc and another Sub-Doc Array",
+							"disabled": true
+						},
+						{
+							"key": "page-state",
+							"value": "BTEzODI0APB_____8H____8=",
+							"description": "Pagination",
+							"disabled": true
+						},
+						{
+							"key": "where",
+							"value": "{ \"flight_history.domestic.bags_checked\" : { \"$gt\" : 0} }",
+							"description": "Get an array of values from the Sub-Doc",
+							"disabled": true
+						},
+						{
+							"key": "where",
+							"value": "{\"club_membership\" : {\"$eq\" : \"50K\"}}",
+							"description": "Return all documents in a collection that qualify",
+							"disabled": true
+						},
+						{
+							"key": "where",
+							"value": "{ \"flight_history.domestic.flight\" : { \"$eq\" : \"ABC0991\"} }",
+							"disabled": true
+						},
+						{
+							"key": "where",
+							"value": "{\"flight_history.domestic.[*].bags_checked\" : {\"$gte\" : 1}}",
+							"description": "Return all bags checked on a domestic flight ",
+							"disabled": true
 						}
 					]
-				},
-				"method": "PATCH",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"home_address\" : \"100 Bush Street, San Francisco, CA 94104\"\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a Customer",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "X-Cassandra-Token",
+						"value": "{{token}}",
+						"type": "text"
 					}
-				},
+				],
 				"url": {
-					"raw": "https://{{db}}-{{region}}.apps.astra.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/110/contact",
+					"raw": "https://{{db}}-{{region}}.apps.astra-test.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/10001",
 					"protocol": "https",
 					"host": [
 						"{{db}}-{{region}}",
 						"apps",
-						"astra",
+						"astra-test",
 						"datastax",
 						"com"
 					],
@@ -218,15 +249,14 @@
 						"{{keyspace}}",
 						"collections",
 						"customers",
-						"110",
-						"contact"
+						"10001"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Update Customer Email Address [append]",
+			"name": "Create an empty Collection",
 			"request": {
 				"auth": {
 					"type": "apikey",
@@ -245,22 +275,13 @@
 				},
 				"method": "PUT",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "  {\n    \"emails\": [\"test+020@somebiz.com\"]\n}  ",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
 				"url": {
-					"raw": "https://{{db}}-{{region}}.apps.astra.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/110/contact/emails",
+					"raw": "https://{{db}}-{{region}}.apps.astra-test.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers",
 					"protocol": "https",
 					"host": [
 						"{{db}}-{{region}}",
 						"apps",
-						"astra",
+						"astra-test",
 						"datastax",
 						"com"
 					],
@@ -271,268 +292,14 @@
 						"namespaces",
 						"{{keyspace}}",
 						"collections",
-						"customers",
-						"110",
-						"contact",
-						"emails"
+						"customers"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Update Customer Work Phone",
-			"request": {
-				"auth": {
-					"type": "apikey",
-					"apikey": [
-						{
-							"key": "value",
-							"value": "{{token}}",
-							"type": "string"
-						},
-						{
-							"key": "key",
-							"value": "X-Cassandra-Token",
-							"type": "string"
-						}
-					]
-				},
-				"method": "PATCH",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"work_phone\" : \"+1 781-998-5556\"\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://{{db}}-{{region}}.apps.astra.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/110/contact",
-					"protocol": "https",
-					"host": [
-						"{{db}}-{{region}}",
-						"apps",
-						"astra",
-						"datastax",
-						"com"
-					],
-					"path": [
-						"api",
-						"rest",
-						"v2",
-						"namespaces",
-						"{{keyspace}}",
-						"collections",
-						"customers",
-						"110",
-						"contact"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get a Specific Customer Club Checkins",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"auth": {
-					"type": "apikey",
-					"apikey": [
-						{
-							"key": "value",
-							"value": "{{token}}",
-							"type": "string"
-						},
-						{
-							"key": "key",
-							"value": "X-Cassandra-Token",
-							"type": "string"
-						}
-					]
-				},
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"id\": \"33330000-1111-1111-1111-000011110000\",\n    \"club_id\": 12355,\n    \"club_membership\" : \"100K\",\n    \"club_joined\": \"2012-04-23T18:25:43.511Z\",\n    \"club_expiration\": \"2021-10-23T18:25:43.511Z\",\n    \"contact\" : {\n        \"cell_phone\": \"+1 555-555-5555\",\n        \"work_phone\": \"+1 555-555-5555\",\n        \"email\" : [\"demo@datastax.com\", \"john2159@somebiz.com\"],\n        \"opt_in\" : true,\n        \"home_address\" : \"100 Main St, Palo Alto, CA 95005\",\n        \"work_address\": \"100 Main St, Palo Alto, CA 95005\"\n    },\n    \"club_checkins\" : [\n        {\"checkin_date\": \"2012-04-23T18:25:43.511Z\"}\n    ],\n    \"flight_history\": {\n        \"domestic\" : [\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-000011110000\",\n                \"flight\" : \"ABC0214\",\n                \"bags_checked\" : 2,\n                \"miles_earned\" : 1795,\n                \"fight_date\" : \"2012-04-23T18:25:43.511Z\"\n            },\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-000011110000\",\n                \"flight\" : \"ABC0216\",\n                \"bags_checked\" : 1,\n                \"miles_earned\" : 803,\n                \"fight_date\" : \"2015-12-23T07:25:43.511Z\"\n            }\n        ],\n        \"international\" : [\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-000011110000\",\n                \"flight\" : \"ABC9203\",\n                \"bags_checked\" : 2,\n                \"miles_earned\" : 3458,\n                \"fight_date\" : \"2013-06-01T06:25:43.511Z\"\n            }\n        ]\n    }\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://{{db}}-{{region}}.apps.astra.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/110/club_checkins",
-					"protocol": "https",
-					"host": [
-						"{{db}}-{{region}}",
-						"apps",
-						"astra",
-						"datastax",
-						"com"
-					],
-					"path": [
-						"api",
-						"rest",
-						"v2",
-						"namespaces",
-						"{{keyspace}}",
-						"collections",
-						"customers",
-						"110",
-						"club_checkins"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get Customer Domestic Flight History",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"auth": {
-					"type": "apikey",
-					"apikey": [
-						{
-							"key": "value",
-							"value": "{{token}}",
-							"type": "string"
-						},
-						{
-							"key": "key",
-							"value": "X-Cassandra-Token",
-							"type": "string"
-						}
-					]
-				},
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"id\": \"33330000-1111-1111-1111-000011110000\",\n    \"club_id\": 12355,\n    \"club_membership\" : \"100K\",\n    \"club_joined\": \"2012-04-23T18:25:43.511Z\",\n    \"club_expiration\": \"2021-10-23T18:25:43.511Z\",\n    \"contact\" : {\n        \"cell_phone\": \"+1 555-555-5555\",\n        \"work_phone\": \"+1 555-555-5555\",\n        \"email\" : [\"demo@datastax.com\", \"john2159@somebiz.com\"],\n        \"opt_in\" : true,\n        \"home_address\" : \"100 Main St, Palo Alto, CA 95005\",\n        \"work_address\": \"100 Main St, Palo Alto, CA 95005\"\n    },\n    \"club_checkins\" : [\n        {\"checkin_date\": \"2012-04-23T18:25:43.511Z\"}\n    ],\n    \"flight_history\": {\n        \"domestic\" : [\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-000011110000\",\n                \"flight\" : \"ABC0214\",\n                \"bags_checked\" : 2,\n                \"miles_earned\" : 1795,\n                \"fight_date\" : \"2012-04-23T18:25:43.511Z\"\n            },\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-000011110000\",\n                \"flight\" : \"ABC0216\",\n                \"bags_checked\" : 1,\n                \"miles_earned\" : 803,\n                \"fight_date\" : \"2015-12-23T07:25:43.511Z\"\n            }\n        ],\n        \"international\" : [\n            {\n                \"ticket\" : \"68780000-1111-1111-1111-000011110000\",\n                \"flight\" : \"ABC9203\",\n                \"bags_checked\" : 2,\n                \"miles_earned\" : 3458,\n                \"fight_date\" : \"2013-06-01T06:25:43.511Z\"\n            }\n        ]\n    }\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://{{db}}-{{region}}.apps.astra.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/110/flight_history/domestic",
-					"protocol": "https",
-					"host": [
-						"{{db}}-{{region}}",
-						"apps",
-						"astra",
-						"datastax",
-						"com"
-					],
-					"path": [
-						"api",
-						"rest",
-						"v2",
-						"namespaces",
-						"{{keyspace}}",
-						"collections",
-						"customers",
-						"110",
-						"flight_history",
-						"domestic"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get Specific Domestic Flight History",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							""
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"auth": {
-					"type": "apikey",
-					"apikey": [
-						{
-							"key": "value",
-							"value": "{{token}}",
-							"type": "string"
-						},
-						{
-							"key": "key",
-							"value": "X-Cassandra-Token",
-							"type": "string"
-						}
-					]
-				},
-				"method": "GET",
-				"header": [
-					{
-						"key": "data.0.ticket",
-						"value": "68780000-1111-1111-1111-000011110021",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://{{db}}-{{region}}.apps.astra.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/110/flight_history/domestic",
-					"protocol": "https",
-					"host": [
-						"{{db}}-{{region}}",
-						"apps",
-						"astra",
-						"datastax",
-						"com"
-					],
-					"path": [
-						"api",
-						"rest",
-						"v2",
-						"namespaces",
-						"{{keyspace}}",
-						"collections",
-						"customers",
-						"110",
-						"flight_history",
-						"domestic"
-					],
-					"query": [
-						{
-							"key": "where",
-							"value": "{\"ticket\" : { \"$eq\" : \"68780000-1111-1111-1111-000011110021\"}}",
-							"disabled": true
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Update Customer Domestic Flight Info",
+			"name": "Update Customer Domestic Flight Sub-Doc",
 			"request": {
 				"auth": {
 					"type": "apikey",
@@ -587,10 +354,7 @@
 			"response": []
 		},
 		{
-			"name": "Get All Documents",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
+			"name": "Update Field in Domestic Flight Sub-Doc",
 			"request": {
 				"auth": {
 					"type": "apikey",
@@ -607,11 +371,11 @@
 						}
 					]
 				},
-				"method": "GET",
+				"method": "PATCH",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n    \"miles_earned\": 880\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -619,12 +383,12 @@
 					}
 				},
 				"url": {
-					"raw": "https://{{db}}-{{region}}.apps.astra.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers?page-size=20",
+					"raw": "https://{{db}}-{{region}}.apps.astra-test.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/10004/flight_history/domestic",
 					"protocol": "https",
 					"host": [
 						"{{db}}-{{region}}",
 						"apps",
-						"astra",
+						"astra-test",
 						"datastax",
 						"com"
 					],
@@ -635,12 +399,57 @@
 						"namespaces",
 						"{{keyspace}}",
 						"collections",
-						"customers"
+						"customers",
+						"10004",
+						"flight_history",
+						"domestic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Canceled Flight History of Customer",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "X-Cassandra-Token",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://{{db}}-{{region}}.apps.astra-test.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/10005/flight_history/domestic/[1]",
+					"protocol": "https",
+					"host": [
+						"{{db}}-{{region}}",
+						"apps",
+						"astra-test",
+						"datastax",
+						"com"
+					],
+					"path": [
+						"api",
+						"rest",
+						"v2",
+						"namespaces",
+						"{{keyspace}}",
+						"collections",
+						"customers",
+						"10005",
+						"flight_history",
+						"domestic",
+						"[1]"
 					],
 					"query": [
 						{
-							"key": "page-size",
-							"value": "20"
+							"key": "where",
+							"value": "{ \"flight_history.domestic.flight\" : { \"$eq\" : \"ABC0991\"} }",
+							"disabled": true
 						}
 					]
 				}
@@ -648,10 +457,7 @@
 			"response": []
 		},
 		{
-			"name": "Search in a Collection",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
+			"name": "Create Deleted Customer Document",
 			"request": {
 				"auth": {
 					"type": "apikey",
@@ -668,11 +474,11 @@
 						}
 					]
 				},
-				"method": "GET",
+				"method": "PUT",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n        \"club_id\": \"049bfdcf-8603-426f-a495-5a9e3759dd3d\",\n        \"club_membership_since\": \"2015-12-18 08:49:26.748\",\n        \"contact\": {\n            \"address\": {\n                \"city\": \"Coralville\",\n                \"country\": \"United States\",\n                \"state\": \"PR\",\n                \"zipcode\": \"12571\"\n            },\n            \"cell_phone\": \"999999999\",\n            \"email\": \"AK001@test.org\"\n        },\n        \"firstname\": \"Russell\",\n        \"flight_history\": {\n            \"domestic\": [\n                {\n                \"bags_checked\": 2,\n                \"flight\": \"AK005\",\n                \"flight_date\": \"2017-04-04 06:59:53.742\",\n                \"miles_earned\": 705,\n                \"ticket\": \"0c199c8f-c395-49f2-9799-646650349612\"\n                },\n                {\n                \"bags_checked\": 0,\n                \"flight\": \"ABC0990\",\n                \"flight_date\": \"2021-09-30T07:25:43.511Z\",\n                \"miles_earned\": 880,\n                \"ticket\": \"68780000-1111-1111-1111-000011110021\"\n                }\n            ],    \n            \"international\": {\n                \"bags_checked\": 1,\n                \"flight\": \"AK004\",\n                \"flight_date\": \"2017-12-01 13:19:26.862\",\n                \"miles_earned\": 1204,\n                \"ticket\": \"3d3f33d8-34a7-4ede-8c19-9c8fc39509f2\"\n            }\n        },\n        \"id\": \"10005\",\n        \"lastname\": \"Blew\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -680,12 +486,12 @@
 					}
 				},
 				"url": {
-					"raw": "https://{{db}}-{{region}}.apps.astra.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers?page-size=20",
+					"raw": "https://{{db}}-{{region}}.apps.astra-test.datastax.com/api/rest/v2/namespaces/{{keyspace}}/collections/customers/10005",
 					"protocol": "https",
 					"host": [
 						"{{db}}-{{region}}",
 						"apps",
-						"astra",
+						"astra-test",
 						"datastax",
 						"com"
 					],
@@ -696,50 +502,8 @@
 						"namespaces",
 						"{{keyspace}}",
 						"collections",
-						"customers"
-					],
-					"query": [
-						{
-							"key": "page-size",
-							"value": "20",
-							"description": "Restrict the number of returned items (max 100)"
-						},
-						{
-							"key": "sort",
-							"value": "id=desc",
-							"description": "Keys to sort by",
-							"disabled": true
-						},
-						{
-							"key": "where",
-							"value": "{\"flight_history.domestic.[*].bags_checked\" : {\"$gte\" : 1}}",
-							"description": "Return all bags checked on a domestic flight",
-							"disabled": true
-						},
-						{
-							"key": "where",
-							"value": "{ \"flight_history.domestic.*.bags_checked\" : { \"$gt\" : 0} }",
-							"description": "Get fields from different Sub-documents",
-							"disabled": true
-						},
-						{
-							"key": "fields",
-							"value": "[\"contact.home_address\", \"flight_history.domestic.[*].bags_checked\"]",
-							"description": "Get column from one Sub-Doc and another Sub-Doc Array",
-							"disabled": true
-						},
-						{
-							"key": "fields",
-							"value": "[\"contact.email\"]",
-							"description": "Get an array of values from the Sub-Doc",
-							"disabled": true
-						},
-						{
-							"key": "where",
-							"value": "{\"club_membership\" : {\"$eq\" : \"50K\"}}",
-							"description": "Return all documents in a collection that qualify",
-							"disabled": true
-						}
+						"customers",
+						"10005"
 					]
 				}
 			},
